@@ -37,7 +37,6 @@ function parseUsers() {
 }
 
 let button = document.querySelector("button");
-
 button.addEventListener("click", () => {
   let users = parseUsers();
   let text = document.querySelector("p");
