@@ -1,3 +1,5 @@
+//Kodtest Sphinxly för LIA - David Larsson
+
 function Greetings() {
   let input = document.querySelector("input");
   let name = input.value;
@@ -8,6 +10,7 @@ function Greetings() {
   };
 }
 
+//Random BackgroundImage
 function randomImage() {
   let images = [
     "https://ruinmyweek.com/wp-content/uploads/2020/01/mr-succ-memes-21.png",
