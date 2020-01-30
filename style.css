@@ -50,13 +50,13 @@ body {
   }
 }
 .wrapper > p {
+  box-sizing: border-box;
   font-family: arial;
   font-size: 3rem;
   color: rgb(241, 249, 255);
   padding: 1rem;
   border-radius: 2rem;
   width: 60%;
-  height: 20%;
   animation: dissolve 4s ease;
 }
 .name {
@@ -147,4 +147,24 @@ input {
   width: 50%;
   margin: 0;
   display: flex;
+}
+
+@media only screen and (max-device-width: 425px) {
+  body {
+    background-size: 90%;
+    background-repeat: no-repeat;
+  }
+
+  .wrapper > p {
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .console {
+    box-sizing: border-box;
+    width: 80%;
+  }
 }
